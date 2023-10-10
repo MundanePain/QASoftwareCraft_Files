@@ -17,15 +17,15 @@ namespace QACalculator
             else if(n1.Length == 0)
             {
                 // if doesn't contain a comma call this
-                if (!n1.Contains(","))
-                    chat x = Utils.ValidSeperator(n1);    // slows down test
+                //if (!n1.Contains(","))
+                //    char x = Utils.ValidSeperator(n1);    // slows down test
 
-                foreach (String number in numbers)
-                {
-                    if (!Utils.IsNumeric(number))
-                    {
-                    }
-                }
+                //foreach (String number in numbers)
+                //{
+                //    if (!Utils.IsNumeric(number))
+                //    {
+                //    }
+                //}
 
             }
             else
